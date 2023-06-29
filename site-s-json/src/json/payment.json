@@ -1,0 +1,51 @@
+{
+  "content": [
+    {
+    "title": "Payment methods",
+    "icon": "./img/static/icon/payments.svg"
+  }],
+  "payments": [
+    {
+      "payment": "./img/change/payment/visa.svg"
+    },
+    {
+      "payment": "./img/change/payment/mastercard.svg"
+    },
+    {
+      "payment": "./img/change/payment/neosurf.svg"
+    },
+    {
+      "payment": "./img/change/payment/bitcoin.svg"
+    },
+    {
+      "payment": "./img/change/payment/bitcoin-cash.svg"
+    },
+    {
+      "payment": "./img/change/payment/litecoin.svg"
+    },
+    {
+      "payment": "./img/change/payment/mifinity.svg"
+    },
+    {
+      "payment": "./img/change/payment/ethereum.svg"
+    },
+    {
+      "payment": "./img/change/payment/ripple.svg"
+    },
+    {
+      "payment": "./img/change/payment/dogecoin.svg"
+    },
+    {
+      "payment": "./img/change/payment/usdt-erc20.svg"
+    },
+    {
+      "payment": "./img/change/payment/cardano.svg"
+    },
+    {
+      "payment": "./img/change/payment/tron.svg"
+    },
+    {
+      "payment": "./img/change/payment/binance.svg"
+    }
+  ]
+}

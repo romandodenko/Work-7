@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Kufam';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Kufam-Bold'),
+    url("../../fonts/Kufam-Bold.woff2") format("woff2")
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto-Medium'),
+    url("../../fonts/Roboto-Medium.woff2") format("woff2")
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rubik-Regular'),
+    url("../../fonts/Rubik-Regular.woff2") format("woff2")
+}

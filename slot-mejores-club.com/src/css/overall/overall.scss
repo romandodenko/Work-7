@@ -1,0 +1,193 @@
+:root {
+  // Шрифты
+  --font-main: "Mako", sans-serif; // главный шрифт на странице
+  --second-main: "Manrope", sans-serif; // главный шрифт на странице
+  --triple-main: "Anybody", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1220px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #101010; // бекграунд страницы
+  --background-menu: #101010;
+  --white: #ffffff;
+  --gold: #F2AB27;
+  --green: #638A10;
+  --yellow: #C88D20;
+  --gray: #1B1B1B;
+
+  --hover: #506F0F; // цвет при ховере
+  --active: #435B10; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tt-1 {
+  font-family: var(--triple-main);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 26px;
+  }
+}
+
+.tt-2 {
+  font-family: var(--triple-main);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tx-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.tx-3 {
+  font-family: var(--triple-main);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.tx-4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 3px 10px;
+  width: 86px;
+  min-height: 24px;
+  width: fit-content;
+  background-color: var(--green);
+  border: 1px solid var(--green);
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.but-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  min-width: 94px;
+  height: 54px;
+  width: fit-content;
+  background-color: var(--green);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}

@@ -1,0 +1,63 @@
+{
+  "content": [
+    {
+    "title": "Neospin Review",
+    "icon": "./img/static/icon/review.svg"
+  }],
+  "reviewLeftTitle": [
+    {
+      "title": "Advantages"
+    }
+  ],
+  "reviewBenefits": [
+    {
+      "text": "Deposits and withdrawals in cryptocurrencies"
+    },
+    {
+      "text": "Wide variety of live dealer games"
+    },
+    {
+      "text": "High withdrawal limit"
+    },
+    {
+      "text": "Own mobile app"
+    },
+    {
+      "text": "Fast payout times"
+    }
+  ],
+  "reviewRightTitle": [
+    {
+      "title": "Licensed"
+    }
+  ],
+  "reviewRightImage": [
+    {
+      "image": "./img/change/benefits/licensed-1.png",
+      "imageWebp": "./img/change/benefits/licensed-1.webp",
+      "class": "1"
+    },
+    {
+      "image": "./img/change/benefits/licensed-2.png",
+      "imageWebp": "./img/change/benefits/licensed-2.webp",
+      "class": "2"
+    }
+  ],
+  "reviewList": [
+    {
+      "icon": "./img/change/benefits/benefits-icon-1.svg",
+      "title": "Casino games",
+      "num": "6588"
+    },
+    {
+      "icon": "./img/change/benefits/benefits-icon-2.svg",
+      "title": "Mobile games",
+      "num": "583"
+    },
+    {
+      "icon": "./img/change/benefits/benefits-icon-3.svg",
+      "title": "Live games",
+      "num": "421"
+    }
+  ]
+}

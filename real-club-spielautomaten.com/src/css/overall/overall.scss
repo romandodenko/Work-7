@@ -1,0 +1,184 @@
+:root {
+  // Шрифты
+  --font-main: "Rubik", sans-serif; // главный шрифт на странице
+  --second-main: "Roboto", sans-serif; // главный шрифт на странице
+  --triple-main: "Kufam", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1315px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #E7F4EE; // бекграунд страницы
+  --background-menu: #E7F4EE;
+  --white: #ffffff;
+  --black: #000000;
+  --green: #206D29;
+
+  --hover: #2E963A; // цвет при ховере
+  --active: #33AD41; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 160px;
+
+    @media (max-width: 1440px) {
+      margin-bottom: 130px;
+    }
+
+    @media (max-width: 991px) {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tt-1 {
+  font-size: 52px;
+  font-family: var(--triple-main);
+  font-weight: 700;
+  line-height: 120%;
+
+  @media (max-width: 1220px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 32px;
+  }
+}
+
+.tt-2 {
+  width: fit-content;
+  position: relative;
+  font-size: 40px;
+  font-family: var(--triple-main);
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0 auto;
+  text-align: center;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    z-index: 1;
+    background-color: var(--green);
+    @media (max-width: 991px) {
+      height: 6px;
+    }
+    @media (max-width: 600px) {
+      height: 4px;
+    }
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tt-3 {
+  font-size: 24px;
+  font-family: var(--triple-main);
+  font-weight: 700;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.tx-1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-2 {
+  font-size: 20px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.but-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 98px;
+  min-height: 52px;
+  border-radius: 29px;
+  background-color: var(--green);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 15px 25px;
+}

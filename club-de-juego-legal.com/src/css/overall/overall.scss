@@ -1,0 +1,204 @@
+:root {
+  // Шрифты
+  --font-main: "ReemKufiFun", sans-serif; // главный шрифт на странице
+  --second-main: "RedRose", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1215px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #323B6A; // бекграунд страницы
+  --background-menu: #323B6A;
+  --white: #ffffff;
+  --l-purple: #516AEF;
+  --blue: #3C87CD;
+  --gray: rgba(255, 249, 242, .7);
+
+  --hover: #3C51BE; // цвет при ховере
+  --active: #213180; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 100px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tt-1 {
+  font-family: var(--second-main);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 36px;
+  } 
+}
+
+.tt-2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tt-3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.tx-1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.but-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 113px;
+  min-height: 44px;
+  background-color: var(--l-purple);
+  border-radius: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  padding: 10px 15px;
+  color: var(--white);
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  background-color: var(--blue);
+  border-radius: 23px;
+  padding: 3px 10px;
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.decorative {
+  font-family: var(--second-main);
+  font-weight: 700;
+  font-size: 153px;
+  line-height: .8;
+  text-transform: uppercase;
+  color: rgba(81, 106, 239, 0.35); 
+  @media (max-width: 991px) {
+    font-size: 132px;
+  } 
+}

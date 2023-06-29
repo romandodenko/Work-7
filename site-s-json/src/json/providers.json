@@ -1,0 +1,26 @@
+{
+  "content": [{
+    "title": "Top providers",
+    "icon": "./img/static/icon/providers.svg"
+  }],
+  "list": [
+    {
+      "image": "./img/change/providers/netent.svg"
+    },
+    {
+      "image": "./img/change/providers/playtech.svg"
+    },
+    {
+      "image": "./img/change/providers/ygdrasil.svg"
+    },
+    {
+      "image": "./img/change/providers/red-tiger.svg"
+    },
+    {
+      "image": "./img/change/providers/playn-go.svg"
+    },
+    {
+      "image": "./img/change/providers/merker.svg"
+    }
+  ]
+}

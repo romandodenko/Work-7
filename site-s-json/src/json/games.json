@@ -1,0 +1,21 @@
+{
+  "content": [{
+    "title": "Top games",
+    "icon": "./img/static/icon/games.svg"
+  }],
+  "contentImages": [
+    {
+    "imageWebp": "./img/change/games/games-1.webp",
+    "image": "./img/change/games/games-1.png"
+  },
+  {
+    "imageWebp": "./img/change/games/games-1.webp",
+    "image": "./img/change/games/games-1.png"
+  }
+  ],
+  "link": [
+    {
+      "text": "Play now"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Название сайта">
+  <meta property="og:site_name" content="Описание сайта">
+  <meta property="og:url" content="Ссылка на сайт">
+  <meta property="og:image" content="Ссылка на сайт/картинка">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Название сайта">
+  <meta name="twitter:description" content="Описание сайта">
+  <meta name="twitter:site" content="Ссылка на сайт">
+  <meta name="twitter:image" content="Ссылка на сайт/картинка">
+  <meta name="description" content="Описание сайта">
+  <title>Название сайта</title>
+  <link rel="shortcut icon" href="./img/favicon.png"> 
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./resources/tooltip/popper.min.js"></script>
+  <script defer src="./resources/tooltip/tippy.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- Начало header -->
+    <header class="header">
+      <div class="header__container container">
+        <div class="logo">
+          <img src="./img/logo.png" loading="lazy" width="30" height="30" alt="Логотип">
+        </div>
+        <div class="header__menu">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link tx-1" href="index.html">
+                  Лендинги
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link tx-1" href="create.html">
+                  Создание лендинга
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link tx-1" href="clicks.html">
+                  Клики\Посещения
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user">
+            <div class="user__name tx-2">
+              Юзер
+            </div>
+            <a class="user__link tooltip but-1" href="#!" data-tippy-content="Выйти из профиля">
+              <svg width="10" height="10">
+                <use xlink:href="./img/svg/sprites.svg#exit"></use>
+              </svg>
+            </a>
+          </div>
+          <button class="header__exit-menu"></button>
+        </div>
+        <button class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <!-- Конец header -->
+    <main>
+      <!-- Начало create -->
+      <section class="create">
+        <div class="container">
+          <h1 class="create__title tt-1">
+            Создание лендинга
+          </h1>
+          <form method="POST" enctype="multipart/form-data"></form>
+        </div>
+      </section>
+      <!-- Конец create -->
+    </main>
+    <!-- Начало footer -->
+    <footer class="footer"></footer>
+    <!-- Конец footer -->
+  </div>
+</body>
+
+</html>

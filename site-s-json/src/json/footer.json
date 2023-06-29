@@ -1,0 +1,25 @@
+{
+  "list": [
+    {
+      "image": "./img/static/footer/responsible.svg"
+    },
+    {
+      "image": "./img/static/footer/gambling.svg"
+    },
+    {
+      "image": "./img/static/footer/provably.svg"
+    },
+    {
+      "image": "./img/static/footer/gamcare.svg"
+    },
+    {
+      "image": "./img/static/footer/ga.svg"
+    },
+    {
+      "image": "./img/static/footer/18.svg"
+    }
+  ],
+  "copy": [{
+    "text": "Copyright ©2023 All Rights Reserved."
+  }]
+}

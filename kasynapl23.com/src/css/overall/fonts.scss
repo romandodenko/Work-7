@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Raleway-Medium'),
+    url("../../fonts/Raleway-Medium.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Raleway-SemiBold'),
+    url("../../fonts/Raleway-SemiBold.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: 'BowlbyOne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('BowlbyOne-Regular'),
+    url("../../fonts/BowlbyOne-Regular.woff2") format("woff2")
+}

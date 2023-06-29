@@ -1,0 +1,46 @@
+{
+  "content": [
+    {
+    "title": "Neospin promotions",
+    "icon": "./img/static/icon/promotions.svg"
+  }],
+  "sliders": [
+    {
+      "image": "./img/change/promotions/promotions-1.png",
+      "imageWebp": "./img/change/promotions/promotions-1.webp",
+      "title": "Welcome",
+      "title2": "bonus",
+      "text": "100% up to",
+      "text1": "$10,000 + 100 fs"
+    },
+    {
+      "image": "./img/change/promotions/promotions-2.png",
+      "imageWebp": "./img/change/promotions/promotions-2.webp",
+      "title": "Welcome",
+      "title2": "bonus",
+      "text": "Get daily",
+      "text1": "On every deposit"
+    },
+    {
+      "image": "./img/change/promotions/promotions-1.png",
+      "imageWebp": "./img/change/promotions/promotions-1.webp",
+      "title": "Welcome",
+      "title2": "bonus",
+      "text": "100% up to",
+      "text1": "$10,000 + 100 fs"
+    },
+    {
+      "image": "./img/change/promotions/promotions-2.png",
+      "imageWebp": "./img/change/promotions/promotions-2.webp",
+      "title": "Welcome",
+      "title2": "bonus",
+      "text": "Get daily",
+      "text1": "On every deposit"
+    }
+  ],
+  "link": [
+    {
+      "text": "Get bonus"
+    }
+  ]
+}

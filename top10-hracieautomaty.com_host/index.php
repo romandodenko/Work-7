@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="sl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Marrol's Boutique Hotel je nova, svetla zvezda na hotelskem nebu.">
+  <meta property="og:site_name"
+    content="Eden najboljših v svojem razredu zagotavlja nepozabno bivanje za vsakega gosta. Hotel ima visoko oceno in je ena izmed najbolj priljubljenih turističnih namestitev na Slovaškem.">
+  <meta property="og:url" content="top10-hracieautomaty.com">
+  <meta property="og:image" content="top10-hracieautomaty.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Marrol's Boutique Hotel je nova, svetla zvezda na hotelskem nebu.">
+  <meta name="twitter:description"
+    content="Eden najboljših v svojem razredu zagotavlja nepozabno bivanje za vsakega gosta. Hotel ima visoko oceno in je ena izmed najbolj priljubljenih turističnih namestitev na Slovaškem.">
+  <meta name="twitter:site" content="top10-hracieautomaty.com">
+  <meta name="twitter:image" content="top10-hracieautomaty.com/main.png">
+  <meta name="description"
+    content="Eden najboljših v svojem razredu zagotavlja nepozabno bivanje za vsakega gosta. Hotel ima visoko oceno in je ena izmed najbolj priljubljenih turističnih namestitev na Slovaškem.">
+  <title>Marrol's Boutique Hotel je nova, svetla zvezda na hotelskem nebu.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Unna-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+      <?php
+      include 'header.php';
+      ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Naše igre so namenjene ODRASLIM občinstvom, starejšim od 18 let. Kliknite
+            Sprejeto za potrditev vaše starosti.</p>
+          <button class="popup__button">Sprejeto</button>
+        </div>
+      </div>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__descr">
+            <h1 class="hero__title tt-1">
+              Marrol'S Boutique Hotel
+            </h1>
+            <p class="hero__text tx-1">
+              Marrol's Boutique Hotel je nova, svetla zvezda na hotelskem nebu. Eden najboljših v svojem razredu
+              zagotavlja nepozabno bivanje za vsakega gosta.
+            </p>
+            <ul class="hero__buttons">
+              <li class="hero__buttons-item">
+                <a class="hero__link but-1" href="nomers.php">
+                  Sobe
+                </a>
+              </li>
+              <li class="hero__buttons-item">
+                <a class="hero__link but-1" href="index.php#about">
+                  O nas
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="hero__images">
+            <li class="hero__image">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/hero-1.webp" type="image/webp">
+                <img src="./img/hero-1.jpg" loading="lazy" width="300" height="300" alt="image">
+              </picture>
+            </li>
+            <li class="hero__image">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/hero-2.webp" type="image/webp">
+                <img src="./img/hero-2.jpg" loading="lazy" width="300" height="300" alt="image">
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start sobe -->
+      <section class="sobe">
+        <div class="container">
+          <h2 class="sobe__title tt-2">
+            Hotelske sobe
+          </h2>
+          <ul class="sobe__list">
+            <li class="sobe__item">
+              <div class="sobe__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/luksuzni-1.webp" type="image/webp">
+                  <img src="./img/luksuzni-1.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+              </div>
+              <h3 class="sobe__subtitle tx-2">
+                Luksuzni apartma
+              </h3>
+              <div class="sobe__text tx-1">
+                <span>
+                  Maks.:
+                </span>
+                3 gosta
+              </div>
+              <ul class="sobe__icons">
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#wifi"></use>
+                  </svg>
+                </li>
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#dyw"></use>
+                  </svg>
+                </li>
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#conder"></use>
+                  </svg>
+                </li>
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#window"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+            <li class="sobe__item">
+              <div class="sobe__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/klasicna-1.webp" type="image/webp">
+                  <img src="./img/klasicna-1.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+              </div>
+              <h3 class="sobe__subtitle tx-2">
+                Klasična enoposteljna soba
+              </h3>
+              <div class="sobe__text tx-1">
+                <span>
+                  Maks.:
+                </span>
+                1 gost
+              </div>
+              <ul class="sobe__icons">
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#wifi"></use>
+                  </svg>
+                </li>
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#dyw"></use>
+                  </svg>
+                </li>
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#conder"></use>
+                  </svg>
+                </li>
+                <li class="sobe__icon">
+                  <svg width="10" height="10">
+                    <use xlink:href="./img/svg/sprites.svg#window"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+            <li class="sobe__item">
+              <div class="sobe__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/dvoposteljna-1.webp" type="image/webp">
+                  <img src="./img/dvoposteljna-1.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+              </div>
+              <h3 class="sobe__subtitle tx-2">
+                Dvoposteljna soba "Elegant"
+              </h3>
+              <div class="sobe__text tx-1">
+                <span>
+                  Maks.:
+                </span>
+                2 gostje
+              </div>
+            </li>
+          </ul>
+          <a class="sobe__link but-1" href="nomers.php">
+            Vse številke
+          </a>
+        </div>
+      </section>
+      <!-- end sobe -->
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title tt-2">
+            O nas
+          </h2>
+          <div class="about__content">
+            <div class="about__left">
+              <p class="about__text tx-1">
+                Marrol's Boutique Hotel je nova svetla povezava na hotelskem trgu. Zaradi visoke ocene med gosti in
+                profesionalnimi potovalnimi agencijami je hotel postal ena najboljših namestitev v Bratislavi. Vsak gost
+                Marrol's Boutique Hotela lahko pričakuje prvovrstne storitve in udobje na najvišji ravni.
+              </p>
+              <p class="about__text tx-1">
+                Hotel si je visoko oceno prislužil zaradi ekskluzivnega dizajna in individualnega pristopa do vsakega
+                gosta. Hotelske sobe so visoke kakovosti in prijetnega vzdušja, v katerem se bo vsak obiskovalec počutil
+                kot doma.
+              </p>
+              <p class="about__text tx-1">
+                V Marrol's Boutique Hotelu ni malenkosti, ki bi lahko šla narobe. Vsi elementi so zasnovani za kakovost
+                in udobje. Hotel je odlična izbira za tiste, ki želijo izkusiti gostoljubnost Slovaške in preživeti čas
+                v kombinaciji udobne nastanitve in luksuznih storitev.
+              </p>
+            </div>
+            <ul class="about__images">
+              <li class="about__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about-1.webp" type="image/webp">
+                  <img src="./img/about-1.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+              </li>
+              <li class="about__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about-2.webp" type="image/webp">
+                  <img src="./img/about-2.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start restorans-->
+      <section class="restorans">
+        <div class="container">
+          <h2 class="restorans__title tt-2">
+            Restavracije
+          </h2>
+          <div class="restorans__content">
+            <div class="restorans__image">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/res-1.webp" type="image/webp">
+                <img src="./img/res-1.jpg" loading="lazy" width="300" height="300" alt="image">
+              </picture>
+            </div>
+            <div class="restorans__descr">
+              <div class="restorans__texts">
+                <p class="restorans__text tx-1">
+                  Restavracija v butičnem hotelu Marrol's je sestavni del njegove visoke ocene in zasluženega ugleda
+                  najboljšega mesta za bivanje v Bratislavi. Novi gostje hitro razumejo, zakaj se restavracija v tem
+                  hotelu uvršča med najboljše.
+                </p>
+                <p class="restorans__text tx-1">
+                  Ta restavracija ponuja širok izbor evropskih jedi. Okusen meni je sestavljen iz najbolj svežih in
+                  najkakovostnejših izdelkov, ki jih na mizo postrežemo na izviren in privlačen način. Kakovost hrane se
+                  ujema z prijetnim vzdušjem restavracije in skrbno postrežbo.
+                </p>
+              </div>
+              <a class="restorans__link but-1" href="restorans.php">
+                Preberi več
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end restorans -->
+
+      <!-- start contacts -->
+      <section class="contacts">
+        <div class="contacts__container container">
+          <div class="contacts__left">
+            <div class="contacts__descr">
+              <h2 class="contacts__title tt-2">
+                Naročite se
+              </h2>
+              <p class="contacts__text tx-1">
+                Naročite se in bodite na tekočem z najnovejšimi novicami, ekskluzivnimi ponudbami in popusti! Bodite
+                prvi obveščeni, ko lansiramo nekaj novega in razburljivega. Naša ekipa se neumorno trudi, da bi vam
+                zagotovila najboljšo izkušnjo.
+              </p>
+            </div>
+          </div>
+          <div class="contacts__right">
+            <form class="form" action="#!" name="form" autocomplete="off">
+              <div class="form__inputs">
+                <input class="form__input tx-1" type="text" name="text" id="text" placeholder="Ime..." required>
+                <input class="form__input tx-1" type="email" name="email" id="email" placeholder="Pošta..." required>
+              </div>
+              <button class="form__button but-1" type="submit">Naročite se</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- end  contacts-->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

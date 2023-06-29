@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="Juego de acción con un mundo abierto y una nueva historia. Juego disponible en PS5">
+  <meta property="og:site_name"
+    content="El juego ofrece gráficos mejorados y un tema musical pegadizo. El juego tendrá una mecánica de combate reelaborada y nuevas características con efectos especiales mejorados.">
+  <meta property="og:url" content="oficial-clubes-de-juego.com">
+  <meta property="og:image" content="oficial-clubes-de-juego.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="Juego de acción con un mundo abierto y una nueva historia. Juego disponible en PS5">
+  <meta name="twitter:description"
+    content="El juego ofrece gráficos mejorados y un tema musical pegadizo. El juego tendrá una mecánica de combate reelaborada y nuevas características con efectos especiales mejorados.">
+  <meta name="twitter:site" content="oficial-clubes-de-juego.com">
+  <meta name="twitter:image" content="oficial-clubes-de-juego.com/main.png">
+  <meta name="description"
+    content="El juego ofrece gráficos mejorados y un tema musical pegadizo. El juego tendrá una mecánica de combate reelaborada y nuevas características con efectos especiales mejorados.">
+  <title>Juego de acción con un mundo abierto y una nueva historia. Juego disponible en PS5</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Karla-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Karla-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Tomorrow-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Nuestros juegos están destinados a un público ADULTO mayor de 18 años. Al hacer clic en
+            el botón
+            Botón para confirmar tu edad.</p>
+          <button class="popup__button">El está deacuerdo</button>
+        </div>
+      </div>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="hero__image">
+          <picture>
+            <source media="(min-width: 320px)" srcset="./img/hero/hero.webp" type="image/webp">
+            <img src="./img/hero/hero.jpg" loading="lazy" width="300" height="300" alt="Image">
+          </picture>
+        </div>
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__descr">
+              <div class="hero__top">
+                <h1 class="hero__title tt-1">
+                  <span class="tx-2">Juego de acción</span>
+                  God Of War Ragnarok
+                </h1>
+                <p class="hero__text tx-1">
+                  Juego de acción en tercera persona, anunciado como la parte final de la historia sobre la vida de
+                  Kratos.
+                </p>
+                <ul class="hero__list">
+                  <li class="hero__item">
+                    <a class="hero__link but-1" href="#desk">
+                      Descripción juego
+                    </a>
+                  </li>
+                  <li class="hero__item">
+                    <a class="hero__link but-2" href="#about">
+                      Sobre el juego
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="hero__ps">
+                <h2 class="hero__subtitle tx-2">
+                  Disponible en
+                </h2>
+                <ul class="hero__psl">
+                  <li class="hero__psl-item tt-4">
+                    PS5
+                  </li>
+                  <li class="hero__psl-item tt-4">
+                    PS4
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start desk -->
+      <section class="desk" id="desk">
+        <div class="container">
+          <div class="desk__head">
+            <h2 class="desk__title tt-2">
+              Descripción del juego
+            </h2>
+            <h3 class="desk__bubtitle tt-3">
+              Trama y personajes principales
+            </h3>
+          </div>
+          <div class="desk__content">
+            <div class="desk__left">
+              <div class="desk__left-top">
+                <p class="desk__text tx-1">
+                  <span class="tx-2">God of War: Ragnarok</span> es la nueva secuela largamente esperada de la famosa
+                  serie de juegos, en la que el jugador se encarnará nuevamente como el héroe legendario Kratos e irá en
+                  busca de nuevas aventuras. El evento principal del juego es el concepto pagano de Ragnarok: el fin del
+                  mundo en la mitología nórdica. Las partes anteriores del juego tienen la mejor lista, esta parte
+                  también logró complacer a los jugadores.
+                </p>
+              </div>
+              <ul class="desk__images">
+                <li class="desk__image desk__image_1">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/desk/desk-1.webp" type="image/webp">
+                    <img src="./img/desk/desk-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </li>
+                <li class="desk__image desk__image_2">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/desk/desk-2.webp" type="image/webp">
+                    <img src="./img/desk/desk-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </li>
+              </ul>
+            </div>
+            <div class="desk__right">
+              <div class="desk__blue">
+                <p class="desk__text tx-1">
+                  El juego se lanzará exclusivamente en la consola PlayStation 5 y ya se ha convertido en uno de los
+                  juegos más esperados de 2022.
+                </p>
+              </div>
+              <div class="desk__descr">
+                <p class="desk__text desk__text_2 tx-2">
+                  El jugador tendrá que luchar contra nuevos monstruos y dioses, pasar pruebas difíciles, resolver
+                  nuevos acertijos y usar habilidades mágicas. El juego también tendrá un elemento RPG: el jugador podrá
+                  mejorar sus habilidades, adquirir las mejores armas y armaduras nuevas.
+                </p>
+                <p class="desk__text desk__text_2 tx-2">
+                  Una de las principales características del juego será un modo cooperativo en el que dos jugadores
+                  podrán jugar juntos la campaña. También se espera un nuevo nivel de efectos visuales, que permitirá a
+                  los jugadores experimentar un entorno más rico y realista.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end desk -->
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__head">
+            <h2 class="about__title tt-2">
+              Proceso de juego
+            </h2>
+            <h3 class="about__subtitle tt-3">
+              Sistema de juego y nuevas armas
+            </h3>
+          </div>
+          <div class="about__top">
+            <div class="about__descr">
+              <p class="about__text tx-1">
+                Como en las partes anteriores, el jugador controla a Kratos, el personaje principal del juego, el
+                antiguo God of War. Esta vez, los eventos se desarrollan en la mitología escandinava y están asociados
+                con el inicio de Ragnarok, el fin del mundo.
+              </p>
+              <p class="about__text tx-1">
+                El juego tendrá una trama lineal que continúa los eventos de la parte anterior. También habrá nuevos
+                personajes, entre ellos Loki, el hijo de Kratos, que aparecerá como compañero y comandante en batalla.
+              </p>
+            </div>
+            <div class="about__image about__image_1">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/about/about-1.webp" type="image/webp">
+                <img src="./img/about/about-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+              </picture>
+            </div>
+          </div>
+          <div class="about__bottom">
+            <div class="about__descr about__descr_2">
+              <p class="about__text tx-1">
+                La jugabilidad se basará en el sistema de combate, que se ha mejorado para ofrecer a los jugadores una
+                amplia variedad de nuevos ataques y combos. Kratos también puede usar una variedad de armas, incluido el
+                martillo de Thor y los rayos de Zeus.
+              </p>
+              <p class="about__text tx-1">
+                Las innovaciones incluyen un mundo abierto y un sistema de creación, que los desarrolladores prometen
+                hacer mucho más profundo y mejor que en entregas anteriores.
+              </p>
+              <p class="about__text tx-1">
+                En general, God of War: Ragnarok promete ser aún más épico y orientado a la acción en este momento,
+                ocupa las primeras posiciones en la clasificación que la parte anterior y ofrecerá a los jugadores
+                nuevas aventuras en el mundo de la mitología nórdica.
+              </p>
+            </div>
+            <ul class="about__list">
+              <li class="about__image about__image_2">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about/about-2.webp" type="image/webp">
+                  <img src="./img/about/about-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                </picture>
+              </li>
+              <li class="about__image about__image_3">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about/about-3.webp" type="image/webp">
+                  <img src="./img/about/about-3.jpg" loading="lazy" width="300" height="300" alt="Image">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start games -->
+      <section class="games">
+        <div class="container">
+          <h2 class="games__title tt-2">
+            Otros juegos
+          </h2>
+          <ul class="games__list">
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-1.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game/game-1.webp" type="image/webp">
+                    <img src="./img/game/game-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <div class="games__descr">
+                <a class="games__name tx-2" href="game-1.php">
+                  Demon’s Souls
+                </a>
+                <p class="games__text tx-1">
+                  Demon's Souls para PS5 es una nueva versión masiva del icónico título del desarrollador japonés From
+                  Software, que debutó en 2010 en PlayStation 3.
+                </p>
+                <a class="games__see but-3" href="game-1.php">
+                  Más
+                </a>
+              </div>
+            </li>
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-2.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game/game-2.webp" type="image/webp">
+                    <img src="./img/game/game-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <div class="games__descr">
+                <a class="games__name tx-2" href="game-2.php">
+                  Elden Ring
+                </a>
+                <p class="games__text tx-1">
+                  Elden Ring es un nuevo juego de rol de mundo completamente abierto del famoso estudio japonés
+                  FromSoftware, desarrollado por Hidetaka Miyazaki con la participación del famoso escritor
+                  estadounidense George Martin.
+                </p>
+                <a class="games__see but-3" href="game-2.php">
+                  Más
+                </a>
+              </div>
+            </li>
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-3.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game/game-3.webp" type="image/webp">
+                    <img src="./img/game/game-3.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <div class="games__descr">
+                <a class="games__name tx-2" href="game-3.php">
+                  Dead Space
+                </a>
+                <p class="games__text tx-1">
+                  Dead Space Remake es una nueva versión completa del juego de terror espacial de culto en la última
+                  versión del motor gráfico Frostbite.
+                  Más.
+                </p>
+                <a class="games__see but-3" href="game-3.php">
+                  Más
+                </a>
+              </div>
+            </li>
+          </ul>
+          <a class="games__all but-1" href="games.php">
+            Todos los juegos
+          </a>
+        </div>
+      </section>
+      <!-- end games -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

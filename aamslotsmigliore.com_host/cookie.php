@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Panoramica di un hotel con slot machine in Italia. Cookie Policy.">
+  <meta property="og:site_name"
+    content="Benvenuti nel lussuoso hotel in Italia dove opulenza ed eccitazione si intrecciano per creare un'esperienza indimenticabile. Questo straordinario hotel è rinomato per le sue eccezionali sistemazioni e per il suo allettante casinò, che offre un'ampia selezione di slot machine.">
+  <meta property="og:url" content="aamslotsmigliore.com">
+  <meta property="og:image" content="aamslotsmigliore.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Panoramica di un hotel con slot machine in Italia. Cookie Policy.">
+  <meta name="twitter:description"
+    content="Benvenuti nel lussuoso hotel in Italia dove opulenza ed eccitazione si intrecciano per creare un'esperienza indimenticabile. Questo straordinario hotel è rinomato per le sue eccezionali sistemazioni e per il suo allettante casinò, che offre un'ampia selezione di slot machine.">
+  <meta name="twitter:site" content="aamslotsmigliore.com">
+  <meta name="twitter:image" content="aamslotsmigliore.com/main.png">
+  <meta name="description"
+    content="Benvenuti nel lussuoso hotel in Italia dove opulenza ed eccitazione si intrecciano per creare un'esperienza indimenticabile. Questo straordinario hotel è rinomato per le sue eccezionali sistemazioni e per il suo allettante casinò, che offre un'ampia selezione di slot machine.">
+  <title>Panoramica di un hotel con slot machine in Italia. Cookie Policy.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start terms -->
+      <section class="terms">
+        <div class="container">
+          <h1>Cookie Policy per aamslotsmigliore.com</h1>
+
+          <p>Questa è la Cookie Policy per aamslotsmigliore.com, accessibile da aamslotsmigliore.com</p>
+
+          <h2><strong>Cosa sono i cookie</strong></h2>
+
+          <p>Come è pratica comune con quasi tutti i siti Web professionali, questo sito utilizza i cookie, che sono
+            piccoli file
+            che vengono scaricati sul tuo computer, per migliorare la tua esperienza. Questa pagina descrive quali
+            informazioni contengono
+            raccogliere, come lo usiamo e perché a volte abbiamo bisogno di memorizzare questi cookie. Condivideremo
+            anche come puoi
+            impedire la memorizzazione di questi cookie, tuttavia ciò potrebbe ridurre o "rompere" alcuni elementi dei
+            siti
+            funzionalità.</p>
+
+          <h2><strong>Come utilizziamo i cookie</strong></h2>
+
+          <p>Utilizziamo i cookie per una serie di motivi descritti di seguito. Sfortunatamente nella maggior parte dei
+            casi non ci sono industrie
+            opzioni standard per disabilitare i cookie senza disabilitare completamente le funzionalità e le
+            caratteristiche che aggiungono
+            a questo sito. Si consiglia di lasciare attivi tutti i cookie se non si è sicuri di averne bisogno o
+            non nel caso in cui vengano utilizzati per fornire un servizio che utilizzi.</p>
+
+          <h2><strong>Disabilitazione dei cookie</strong></h2>
+
+          <p>Puoi impedire l'impostazione dei cookie modificando le impostazioni del tuo browser (consulta la Guida del
+            tuo browser per
+            come fare questo). Tieni presente che la disabilitazione dei cookie influirà sulla funzionalità di questo e
+            di molti altri
+            siti web che visiti. La disabilitazione dei cookie di solito comporta anche la disabilitazione di
+            determinate funzionalità e
+            caratteristiche di questo sito. Pertanto si consiglia di non disabilitare i cookie.</p>
+
+          <h2><strong>I cookie che impostiamo</strong></h2>
+
+          <ul>
+
+            <li>
+              <p>Cookie relativi ai moduli</p>
+              <p>Quando invii dati tramite un modulo come quelli che si trovano nelle pagine di contatto o nei moduli di
+                commento, i cookie
+                potrebbe essere impostato per ricordare i dettagli dell'utente per la corrispondenza futura.</p>
+            </li>
+
+
+          </ul>
+
+          <h2><strong>Cookie di terze parti</strong></h2>
+
+          <p>In alcuni casi speciali utilizziamo anche cookie forniti da terze parti fidate. I dettagli della sezione
+            seguente
+            quali cookie di terze parti potresti incontrare attraverso questo sito.</p>
+
+          <ul>
+
+            <li>
+              <p>Questo sito utilizza Google Analytics che è una delle soluzioni di analisi più diffuse e affidabili in
+                circolazione
+                il web per averci aiutato a capire come utilizzi il sito e i modi in cui possiamo migliorare la tua
+                esperienza.
+                Questi cookie possono tenere traccia di cose come quanto tempo trascorri sul sito e le pagine che
+                visiti, quindi noi
+                può continuare a produrre contenuti accattivanti.</p>
+              <p>Per ulteriori informazioni sui cookie di Google Analytics, consultare la pagina ufficiale di Google
+                Analytics.</p>
+            </li>
+
+          </ul>
+
+          <h2><strong>Ulteriori informazioni</strong></h2>
+
+          <p>Spero che questo ti abbia chiarito le cose e, come accennato in precedenza, se c'è qualcosa che ti
+            interessa
+            se non sei sicuro di averne bisogno o meno, di solito è più sicuro lasciare i cookie abilitati nel caso in
+            cui interagisca
+            con una delle funzionalità che utilizzi sul nostro sito.</p>
+
+        </div>
+      </section>
+      <!-- end terms -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Grand Theft Auto V is a world-famous ranked open world game. Reviews.">
+  <meta property="og:site_name"
+    content="This is a third-person crime shooter that is famous not only for its interesting story, but also for its huge open world where the player can move freely and complete many tasks.">
+  <meta property="og:url" content="toprating-clubcasino.com">
+  <meta property="og:image" content="toprating-clubcasino.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Grand Theft Auto V is a world-famous ranked open world game. Reviews.">
+  <meta name="twitter:description"
+    content="This is a third-person crime shooter that is famous not only for its interesting story, but also for its huge open world where the player can move freely and complete many tasks.">
+  <meta name="twitter:site" content="toprating-clubcasino.com">
+  <meta name="twitter:image" content="toprating-clubcasino.com/main.png">
+  <meta name="description"
+    content="This is a third-person crime shooter that is famous not only for its interesting story, but also for its huge open world where the player can move freely and complete many tasks.">
+  <title>Grand Theft Auto V is a world-famous ranked open world game. Reviews.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Rajdhani-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/PricedownRus-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./resources/swiper/swiper.css">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./resources/swiper/swiper.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- -end header -->
+    <main>
+      <!-- start reviews -->
+      <section class="reviews reviews_2">
+        <div class="container">
+          <div class="reviews__content">
+            <h1 class="reviews__title tt-2">
+              Reviews
+            </h1>
+            <div class="reviews-slider">
+              <div class="reviews-slider__wrapper">
+                <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__top">
+                    <h3 class="reviews-slider__subtitle tt-3">
+                      Oliver
+                    </h3>
+                    <ul class="reviews-slider__list">
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="reviews-slider__text tx-1">
+                    Grand Theft Auto V is one of the best games I have ever played! This game really deserves its M
+                    rating as it's not for the faint of heart.
+                  </p>
+                </div>
+                <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__top">
+                    <h3 class="reviews-slider__subtitle tt-3">
+                      Jack
+                    </h3>
+                    <ul class="reviews-slider__list">
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="reviews-slider__text tx-1">
+                    I've been playing Grand Theft Auto V since its inception on the market, and I can safely say that
+                    this is one of the very first games that is so fun and addictive.
+                  </p>
+                </div>
+                <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__top">
+                    <h3 class="reviews-slider__subtitle tt-3">
+                      Noah
+                    </h3>
+                    <ul class="reviews-slider__list">
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="reviews-slider__text tx-1">
+                    Grand Theft Auto V is a powerful blow to gameplay stereotypes and has been our favorite for many
+                    years - the very first ones are the best!
+                  </p>
+                </div>
+                <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__top">
+                    <h3 class="reviews-slider__subtitle tt-3">
+                      Tiana
+                    </h3>
+                    <ul class="reviews-slider__list">
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="reviews-slider__text tx-1">
+                    If you are looking for a game that will make you feel like a real criminal, you should try Grand
+                    Theft Auto V. This is one of the best games of all time and deserves the highest rating!
+                  </p>
+                </div>
+                <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__top">
+                    <h3 class="reviews-slider__subtitle tt-3">
+                      Nikau
+                    </h3>
+                    <ul class="reviews-slider__list">
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="reviews-slider__text tx-1">
+                    Grand Theft Auto V is not just a game, it is a life that can be considered not only as
+                    entertainment, but also as an encyclopedia of the social problems of our world.
+                  </p>
+                </div>
+                <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__top">
+                    <h3 class="reviews-slider__subtitle tt-3">
+                      Amaia
+                    </h3>
+                    <ul class="reviews-slider__list">
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                      <li class="reviews-slider__item">
+                        <img src="./img/star.svg" loading="lazy" width="30" height="30" alt="Star">
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="reviews-slider__text tx-1">
+                    Despite criticism and controversy, Grand Theft Auto V remains one of the best games of all time,
+                    which is hard to find a suitable replacement and not skip again through its interesting world.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -end reviews -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- -end footer -->
+  </div>
+</body>
+
+</html>

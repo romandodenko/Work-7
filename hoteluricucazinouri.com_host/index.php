@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Joacă chiar acum la cazinoul online și distrează-te mult cu sloturile.">
+  <meta property="og:site_name"
+    content="Toate jocurile slot din cazinoul nostru online sunt gratuite și pot fi jucate fără înregistrare. Loturi colorate și moderne cu tema piratilor sunt disponibile chiar acum fără descărcare.">
+  <meta property="og:url" content="hoteluricucazinouri.com">
+  <meta property="og:image" content="hoteluricucazinouri.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Joacă chiar acum la cazinoul online și distrează-te mult cu sloturile.">
+  <meta name="twitter:description"
+    content="Toate jocurile slot din cazinoul nostru online sunt gratuite și pot fi jucate fără înregistrare. Loturi colorate și moderne cu tema piratilor sunt disponibile chiar acum fără descărcare.">
+  <meta name="twitter:site" content="hoteluricucazinouri.com">
+  <meta name="twitter:image" content="hoteluricucazinouri.com/main.png">
+  <meta name="description"
+    content="Toate jocurile slot din cazinoul nostru online sunt gratuite și pot fi jucate fără înregistrare. Loturi colorate și moderne cu tema piratilor sunt disponibile chiar acum fără descărcare.">
+  <title>Joacă chiar acum la cazinoul online și distrează-te mult cu sloturile.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Jocurile noastre sunt destinate unui public ADULT de peste 18 ani. Făcând clic butonul Buton pentru a vă confirma vârsta.</p>
+          <button class="popup__button">El este de acord</button>
+        </div>
+      </div>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__descr">
+              <h1 class="hero__title tt-1">
+                Cazinouri online
+              </h1>
+              <p class="hero__text tx-1">
+                Jocurile oferite pe site nu oferă utilizatorilor șansa de a câștiga bani reali. Site-ul nu oferă
+                utilizatorilor abilități care pot fi folosite în jocurile de noroc reale. Jocurile sunt disponibile
+                pentru utilizatorii cu vârsta peste 18 ani.
+              </p>
+              <a class="hero__link but-1" href="#games">
+                Joaca acum
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start games -->
+      <section class="games" id="games">
+        <div class="container">
+          <h2 class="games__title tt-2">
+            Jocurile noastre de cazinou online
+          </h2>
+          <h3 class="games__subtitle tt-3">
+            Sloturi
+          </h3>
+          <ul class="games__list">
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-1.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game-1.webp" type="image/webp">
+                    <img src="./img/game-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <a class="games__link but-1" href="game-1.php">
+                Joaca
+              </a>
+            </li>
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-2.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game-2.webp" type="image/webp">
+                    <img src="./img/game-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <a class="games__link but-1" href="game-2.php">
+                Joaca
+              </a>
+            </li>
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-3.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game-3.webp" type="image/webp">
+                    <img src="./img/game-3.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <a class="games__link but-1" href="game-3.php">
+                Joaca
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end games -->
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="about__container container">
+          <div class="about__left">
+            <h2 class="about__title tt-2">
+              Cazinou online cu jocuri gratuite
+            </h2>
+            <h3 class="about__subtitle tt-3">
+              Despre noi
+            </h3>
+            <p class="about__text tx-1">
+              Sloturile sunt acum cele mai populare jocuri de cazinou online. Ei primesc o mulțime de feedback pozitiv
+              de la utilizatori datorită intrigilor lor colorate și interesante, a graficii bune și a capacității de a
+              juca gratuit din confortul casei. Fiecare joc are propria sa atmosferă care transmite emoția.
+            </p>
+            <p class="about__text tx-1">
+              Pe site-ul nostru puteți găsi orice joc de slot din orice motiv și nu vă faceți griji pentru siguranță.
+              Această pagină conține cele mai bune jocuri demo de la dezvoltatori de software cu descrieri complete.
+              Jocurile slot gratuite sunt bune pentru că datorită jocurilor din ele poți să-ți dezvolți propria
+              strategie și să studiezi caracteristicile, simbolurile și parametrii.
+            </p>
+            <p class="about__text tx-1">
+              Poți juca sloturi în orice cazinou online, ceea ce este și un mare avantaj, trebuie doar să lansezi astfel
+              de jocuri pe Internet gratuit și fără înregistrare pentru a-ți petrece timpul liber luminos și cu interes.
+              Toată lumea poate alege un slot după bunul său plac, la urma urmei, producătorii de software pentru jocuri
+              nu se opresc și creează sloturi mai interesante, cu intrări vii, grafică grozavă și funcții suplimentare
+              de joc.
+            </p>
+          </div>
+          <div class="about__image">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="./img/about.webp, ./img/about-x2.webp 2x" type="image/webp">
+              <img src="./img/about.jpg" srcset="./img/about-x2.jpg 2x" loading="lazy" width="300" height="300"
+                alt="image">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start benefits -->
+      <section class="benefits" id="benefits">
+        <div class="container">
+          <h2 class="benefits__title tt-2">
+            De ce sunt bune sloturile gratuite?
+          </h2>
+          <h3 class="benefits__subtitle  tt-3">
+            Avantaje
+          </h3>
+          <div class="benefits__content">
+            <ul class="benefits__list">
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Sloturi gratuite
+                </p>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Fără înregistrare
+                </p>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Mereu online
+                </p>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Accesibil de pe orice dispozitiv
+                </p>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Joc ușor
+                </p>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Niciun risc în afara jocului
+                </p>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Povesti colorate
+                </p>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__icon">
+                  <img src="./img/icon.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </span>
+                <p class="benefits__text benefits__text_2 tx-3">
+                  Producători verificați
+                </p>
+              </li>
+            </ul>
+            <div class="benefits__right">
+              <p class="benefits__text tx-2">
+                În cazinoul nostru aveți posibilitatea de a testa orice aparate de slot gratuit și chiar acum. Studiați
+                regulile și citiți descrierea jocului, toate acestea sunt disponibile în cazinoul nostru online. Slot
+                machines sunt una dintre cele mai populare forme de divertisment din lumea jocurilor de noroc. Cu toate
+                acestea, nu toată lumea este dispusă să-și riște banii jucându-le. Pentru cei care doresc doar să se
+                distreze și să își încerce norocul, există aparate de slot gratuite.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end benefits -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

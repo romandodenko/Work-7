@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="Cazinou online cu tematică de fructe, cu rotiri gratuite și grafică impresionantă.">
+  <meta property="og:site_name"
+    content="Cazinou online cu sloturi moderne gratuite, rotiri nelimitate și grafică strălucitoare cu efecte sonore. Jocuri de noroc fără pierderi de fonduri și fără înregistrare, disponibile non-stop.">
+  <meta property="og:url" content="evaluarecazino.com">
+  <meta property="og:image" content="evaluarecazino.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="Cazinou online cu tematică de fructe, cu rotiri gratuite și grafică impresionantă.">
+  <meta name="twitter:description"
+    content="Cazinou online cu sloturi moderne gratuite, rotiri nelimitate și grafică strălucitoare cu efecte sonore. Jocuri de noroc fără pierderi de fonduri și fără înregistrare, disponibile non-stop.">
+  <meta name="twitter:site" content="evaluarecazino.com">
+  <meta name="twitter:image" content="evaluarecazino.com/main.png">
+  <meta name="description"
+    content="Cazinou online cu sloturi moderne gratuite, rotiri nelimitate și grafică strălucitoare cu efecte sonore. Jocuri de noroc fără pierderi de fonduri și fără înregistrare, disponibile non-stop.">
+  <title>Cazinou online cu tematică de fructe, cu rotiri gratuite și grafică impresionantă.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Jocurile noastre sunt destinate unui public ADULT de peste 18 ani. Făcând clic
+            butonul
+            Buton pentru a vă confirma vârsta.</p>
+          <button class="popup__button">El este de acord</button>
+        </div>
+      </div>
+            <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__descr">
+              <h1 class="hero__title tt-1">
+                <span class="tx-2">
+                  Cele mai bune sloturi online fără înregistrare
+                </span>
+                Cazinou online
+              </h1>
+              <p class="hero__text tx-1">
+                <span>Jocurile oferite pe site nu oferă utilizatorilor posibilitatea de a câștiga bani reali.</span>
+                Site-ul nu oferă utilizatorilor abilități care pot fi folosite în jocurile de noroc reale. Jocurile sunt
+                disponibile pentru utilizatorii cu vârsta peste 18 ani.
+              </p>
+              <a class="hero__link but-1" href="#games">
+                Joaca
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start benefits -->
+      <section class="benefits" id="benefits">
+        <div class="benefits__container container">
+          <div class="benefits__left">
+            <h2 class="benefits__title tt-2">
+              Avantaje
+            </h2>
+            <p class="benefits__text tx-1">
+              Sloturile gratuite au o mulțime de avantaje. Cel mai important lucru este că sunt gratuite și ajută la
+              economisirea de mulți bani și, în același timp, experimentează aceleași senzații ca la sloturile reale.
+            </p>
+          </div>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <h3 class="benefits__subtitle tt-3">
+                Joc de exersare
+              </h3>
+              <p class="benefits__text benefits__text_color tx-1">
+                Puteți exersa la sloturi gratuite la nesfârșit
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h3 class="benefits__subtitle tt-3">
+                Grafică nouă
+              </h3>
+              <p class="benefits__text benefits__text_color tx-1">
+                Personaje luminoase și colorate în jocuri noi
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h3 class="benefits__subtitle tt-3">
+                Fără înregistrare
+              </h3>
+              <p class="benefits__text benefits__text_color tx-1">
+                Nu este necesară înregistrarea pentru a juca sloturi gratuite
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h3 class="benefits__subtitle tt-3">
+                Mereu valabil
+              </h3>
+              <p class="benefits__text benefits__text_color tx-1">
+                Cazinoul nostru online este disponibil non-stop
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end benefits -->
+
+      <!-- start games -->
+      <section class="games" id="games">
+        <div class="container">
+          <h2 style="display: none;">Jocuri</h2>
+          <ul class="games__list">
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-1.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game-1.webp" type="image/webp">
+                    <img src="./img/game-1.png" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <div class="games__descr">
+                <a class="games__link tx-1" href="game-1.php">
+                  Gems bonanza
+                </a>
+                <a class="games__play" href="game-1.php">
+                  <img src="./img/play.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </a>
+              </div>
+            </li>
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-2.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game-2.webp" type="image/webp">
+                    <img src="./img/game-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <div class="games__descr">
+                <a class="games__link tx-1" href="game-2.php">
+                  Juicy fruits
+                </a>
+                <a class="games__play" href="game-2.php">
+                  <img src="./img/play.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </a>
+              </div>
+            </li>
+            <li class="games__item">
+              <div class="games__image">
+                <a href="game-3.php">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/game-3.webp" type="image/webp">
+                    <img src="./img/game-3.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </a>
+              </div>
+              <div class="games__descr">
+                <a class="games__link tx-1" href="game-3.php">
+                  Grand fruits
+                </a>
+                <a class="games__play" href="game-3.php">
+                  <img src="./img/play.svg" loading="lazy" width="30" height="30" alt="Icon">
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end games -->
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <h2 class="about__title tt-2">
+              Despre cazinoul online
+            </h2>
+            <div class="about__content">
+              <div class="about__left">
+                <p class="about__text tx-1">
+                  De obicei, aparatele de slot necesită bani personali, dar în cazinoul nostru acest lucru nu este deloc
+                  necesar. Începeți jocul și nu plătiți niciun ban. De îndată ce începeți să jucați orice slot machine,
+                  veți primi fonduri virtuale în contul cu care jucați. Puteți reporni slotul în orice moment și contul
+                  dvs. va avea din nou suma inițială de bani virtuali.
+                </p>
+                <p class="about__text tx-1">
+                  Încercați să obțineți o doză de entuziasm, dar fără a pierde bani. Indirect, poți câștiga mai mult cu
+                  noi decât în ​​orice cazinou online, pentru că nu poți pierde. Sloturile demo gratuite la un cazinou
+                  online austriac de renume îți vor perfecționa abilitățile și vor folosi aceste jocuri pentru a-ți
+                  dezvolta strategia. Atunci poți să-ți asumi riscul și să mergi mai departe.
+                </p>
+              </div>
+              <div class="about__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about.webp, ./img/about-x2.webp 2x"
+                    type="image/webp">
+                  <img src="./img/about.png" srcset="./img/about-x2.png 2x" loading="lazy" width="300" height="300"
+                    alt="Image">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

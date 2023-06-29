@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="S.T.A.L.K.E.R. is een serie first-person shooter-games met RPG- en. Soortgelijke. spellen.">
+  <meta property="og:site_name"
+    content="Kortom, S.T.A.L.K.E.R. bekend om zijn verhaal diepte, sfeer en open wereld die levend en wild aanvoelt. Al met al heeft S.T.A.L.K.E.R. is een geweldige game voor fans.">
+  <meta property="og:url" content="speelautomaten-nl.com">
+  <meta property="og:image" content="speelautomaten-nl.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="S.T.A.L.K.E.R. is een serie first-person shooter-games met RPG- en. Soortgelijke. spellen.">
+  <meta name="twitter:description"
+    content="Kortom, S.T.A.L.K.E.R. bekend om zijn verhaal diepte, sfeer en open wereld die levend en wild aanvoelt. Al met al heeft S.T.A.L.K.E.R. is een geweldige game voor fans.">
+  <meta name="twitter:site" content="speelautomaten-nl.com">
+  <meta name="twitter:image" content="speelautomaten-nl.com/main.png">
+  <meta name="description"
+    content="Kortom, S.T.A.L.K.E.R. bekend om zijn verhaal diepte, sfeer en open wereld die levend en wild aanvoelt. Al met al heeft S.T.A.L.K.E.R. is een geweldige game voor fans.">
+  <title>S.T.A.L.K.E.R. is een serie first-person shooter-games met RPG- en. Soortgelijke. spellen.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Anton-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Quantico-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./resources/swiper/swiper.css">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./resources/swiper/swiper.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start games -->
+      <section class="games games_2">
+        <div class="container">
+          <h1 class="games__title tt-2 visually-hidden">
+            Soortgelijke. spellen.
+          </h1>
+          <div class="game">
+            <h2 class="game__title tt-2">
+              Metro Exodus
+            </h2>
+            <div class="game__content">
+              <div class="game__left">
+                <div class="game__image game__image_1">
+                  <picture>
+                  <source media="(min-width: 320px)" srcset="./img/metro-1.webp" type="image/webp">
+                  <img src="./img/metro-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+                <div class="game__image game__image_2">
+                  <picture>
+                  <source media="(min-width: 320px)" srcset="./img/metro-2.webp" type="image/webp">
+                  <img src="./img/metro-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+              </div>
+              <div class="game__right">
+                <ul class="game__plays">
+                  <li class="game__play tx-2">
+                    PC
+                  </li>
+                  <li class="game__play tx-2">
+                    PS 4
+                  </li>
+                  <li class="game__play tx-2">
+                    Xbox One
+                  </li>
+                  <li class="game__play tx-2">
+                    PS 5
+                  </li>
+                  <li class="game__play tx-2">
+                    Xbox-serie X
+                  </li>
+                </ul>
+                <p class="game__text game__text_1 tx-1">
+                  Actie, Shooter, Survival, Stealth, First-Person, Post-apocalyptisch
+                </p>
+                <div class="game__descr">
+                  <p class="game__text tx-1">
+                    Metro Exodus is de volgende stap in een veelgeprezen serie games die hoge cijfers heeft gekregen en hoog scoort in de beste gametitels.
+                    De game introduceert nieuwe locaties vol details en vol nieuwe avonturen. Metro Exodus heeft zijn duistere sfeer behouden en diepte aan het verhaal toegevoegd, evenals een groot aantal nieuwe personages, facties en puzzels.
+                  </p> 
+                  <p class="game__text tx-1">
+                    Spelers ervaren echte overleving, waarbij ze nieuwe en ongelooflijk gevaarlijke obstakels moeten overwinnen. Ze zullen moeten vechten tegen vijanden in welke vorm dan ook om te overleven en hun weg naar huis te vinden.
+                  </p>
+                  <p class="game__text tx-1">
+                    De pc-versie van de game biedt geweldige graphics, verbluffende omgevingsdetails en een ongelooflijk niveau van optimalisatie. Op consoles, vooral PS4, heeft de game wat visuele problemen, maar dat doet niets af aan de algehele ervaring.
+                  </p>
+                  <p class="game__text tx-1">
+                    Als je een single shooter-liefhebber bent, is Metro Exodus een game die je niet mag missen. Met nieuwe locaties, verbeterde graphics en bewezen kwaliteit is Metro Exodus een must-play voor 's werelds beste gamers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <h2 class="game__title tt-2">
+              The Division 2
+            </h2>
+            <div class="game__content">
+              <div class="game__left">
+                <div class="game__image game__image_1">
+                  <picture>
+                  <source media="(min-width: 320px)" srcset="./img/division-1.webp" type="image/webp">
+                  <img src="./img/division-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+                <div class="game__image game__image_2">
+                  <picture>
+                  <source media="(min-width: 320px)" srcset="./img/division-2.webp" type="image/webp">
+                  <img src="./img/division-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+              </div>
+              <div class="game__right">
+                <ul class="game__plays">
+                  <li class="game__play tx-2">
+                    PC
+                  </li>
+                  <li class="game__play tx-2">
+                    PS 4
+                  </li>
+                  <li class="game__play tx-2">
+                    Xbox One
+                  </li>
+                  <li class="game__play tx-2">
+                    PS 5
+                  </li>
+                  <li class="game__play tx-2">
+                    Xbox-serie X
+                  </li>
+                </ul>
+                <p class="game__text game__text_1 tx-1">
+                  Actie, Shooter, Survival, Stealth, First-Person, Post-apocalyptisch
+                </p>
+                <div class="game__descr">
+                  <p class="game__text tx-1">
+                    The Division 2 is een moderne multiplayer third-person shooter met RPG-elementen die veel positieve recensies heeft gekregen.
+                  </p> 
+                  <p class="game__text tx-1">
+                    De game presenteert nieuwe en rijke locaties, die nog gedetailleerder zijn geworden en op zijn zachtst gezegd horror inspireren. The Division 2 behoudt de klassieke elementen van het spel, inclusief het upgradesysteem voor gevechtsvaardigheden, wapens en andere spelmechanismen, maar voegt ook veel nieuwe functies toe.
+                    Spelers waarderen The Division 2 hoog vanwege de hoogwaardige gameplay, ongelooflijke hoeveelheid content en de mogelijkheid om met vrienden te spelen. Nieuwe missies, locaties en evenementen geven spelers voldoende ruimte om te verkennen.
+                  </p>
+                  <p class="game__text tx-1">
+                    The Division 2 krijgt nog steeds hoge beoordelingen van de beste gamepublicaties en de algehele beoordeling is hoog. De game is een van de beste in zijn genre en een must-play voor fans van single-shooters en RPG's.
+                  </p>
+                  <p class="game__text tx-1">
+                    Over het algemeen introduceert The Division 2 een game met bijgewerkte graphics en veel nieuwe functies en mechanismen. De enorme hoeveelheid content laat een indruk achter en zorgt ervoor dat spelers lang diep ondergedompeld blijven in het spel.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <h2 class="game__title tt-2">
+              Next Day
+            </h2>
+            <div class="game__content">
+              <div class="game__left">
+                <div class="game__image game__image_1">
+                  <picture>
+                  <source media="(min-width: 320px)" srcset="./img/next-1.webp" type="image/webp">
+                  <img src="./img/next-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+                <div class="game__image game__image_2">
+                  <picture>
+                  <source media="(min-width: 320px)" srcset="./img/next-2.webp" type="image/webp">
+                  <img src="./img/next-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+              </div>
+              <div class="game__right">
+                <ul class="game__plays">
+                  <li class="game__play tx-2">
+                    PC
+                  </li>
+                </ul>
+                <p class="game__text game__text_1 tx-1">
+                  Actie, Meerdere spelers, Survival, Third-Person, Open wereld, Post-apocalyptisch
+                </p>
+                <div class="game__descr">
+                  <p class="game__text tx-1">
+                    Next Day 2 is een survival-shooter in een open wereld waarin spelers een post-apocalyptische wereld moeten verkennen, mutanten en andere spelers moeten bevechten en verschillende middelen en items moeten vinden om te overleven.
+                  </p> 
+                  <p class="game__text tx-1">
+                    De game introduceert nieuwe locaties, meer knutselen en veel nieuwe opties voor spelers, waardoor een uniek open game-universum wordt geboden en de mogelijkheid om met vrienden in coöperatieve modus te spelen.
+                  </p>
+                  <p class="game__text tx-1">
+                    Next Day 2 heeft positieve feedback gekregen van spelers en staat hoog aangeschreven in de beste survivalgames. Spelers prezen de kwaliteit van de graphics, de spannende verhaallijn en ontwikkelingsmogelijkheden, evenals de spannende gevechten en gevechten met monsters.
+                  </p>
+                  <p class="game__text tx-1">
+                    Next Day 2 is een game die fans van de survival- en shooter-genres zal aanspreken en een unieke spelomgeving biedt vol snelle gebeurtenissen en onvoorspelbare vijanden.
+                    Al met al is Next Day 2 een evoluerend spel met nieuwe functies en unieke spelmechanica dat respect blijft verdienen van overlevingsspelers en hoge cijfers krijgt van de beste gamepublicaties en recensenten.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end games -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>
